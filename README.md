@@ -6,7 +6,7 @@ A collection of design patterns and idioms in Python.
 Current Patterns
 ----------------
 
-__Creational Patterns__:
+**Creational Patterns**:
 
 | Pattern | Description |
 |:-------:| ----------- |
@@ -18,7 +18,7 @@ __Creational Patterns__:
 | [pool](patterns/creational/pool.py) | preinstantiate and maintain a group of instances of the same type |
 | [prototype](patterns/creational/prototype.py) | use a factory and clones of a prototype for new instances (if instantiation is expensive) |
 
-__Structural Patterns__:
+**Structural Patterns**:
 
 | Pattern | Description |
 |:-------:| ----------- |
@@ -33,7 +33,7 @@ __Structural Patterns__:
 | [mvc](patterns/structural/mvc.py) | model<->view<->controller (non-strict relationships) |
 | [proxy](patterns/structural/proxy.py) | an object funnels operations to something else |
 
-__Behavioral Patterns__:
+**Behavioral Patterns**:
 
 | Pattern | Description |
 |:-------:| ----------- |
@@ -53,19 +53,19 @@ __Behavioral Patterns__:
 | [template](patterns/behavioral/template.py) | an object imposes a structure but takes pluggable components |
 | [visitor](patterns/behavioral/visitor.py) | invoke a callback for all items of a collection |
 
-__Design for Testability Patterns__:
+**Design for Testability Patterns**:
 
 | Pattern | Description |
 |:-------:| ----------- |
 | [dependency_injection](patterns/dependency_injection.py) | 3 variants of dependency injection |
 
-__Fundamental Patterns__:
+**Fundamental Patterns**:
 
 | Pattern | Description |
 |:-------:| ----------- |
 | [delegation_pattern](patterns/fundamental/delegation_pattern.py) | an object handles a request by delegating to a second object (the delegate) |
 
-__Others__:
+**Others**:
 
 | Pattern | Description |
 |:-------:| ----------- |
