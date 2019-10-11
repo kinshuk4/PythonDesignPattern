@@ -85,14 +85,14 @@ A collection of design patterns and idioms in Python.
 
 When an implementation is added or modified, please review the following guidelines:
 
-##### Output
+### Output
 
 All files with example patterns have `### OUTPUT ###` section at the bottom
 (migration to OUTPUT = """...""" is in progress).
 
 Run `append_output.sh` (e.g. `./append_output.sh borg.py`) to generate/update it.
 
-##### Docstrings
+### Docstrings
 
 Add module level description in form of a docstring with links to corresponding references or other useful information.
 
@@ -104,18 +104,18 @@ but sometimes the shorter one as in [template.py](patterns/behavioral/template.p
 In some cases class-level docstring with doctest would also help (see [adapter.py](patterns/structural/adapter.py))
 but readable OUTPUT section is much better.
 
-##### Python2/3 compatibility
+### Python2/3 compatibility
 
 Try to keep it (discussion is held in [issue #208](https://github.com/faif/python-patterns/issues/208))
 
 - use new style classes (inherit from `object`)
 - use `from __future__ import print_function`
 
-##### Update README
+### Update README
 
 When everything else is done - update corresponding part of README.
 
-##### Travis CI
+### Travis CI
 
 Please run `tox` or `tox -e ci37` before submitting a patch to be sure your changes will pass CI.
 
