@@ -2,7 +2,7 @@
 
 A collection of design patterns and idioms in Python.
 
-## Current Patterns
+## Design Patterns
 
 **Creational Patterns**:
 
